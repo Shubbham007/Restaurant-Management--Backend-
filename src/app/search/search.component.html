@@ -1,0 +1,9 @@
+<div class="card card-body mt-3">
+  <p class="h6 my-2">Search component</p>
+  <hr>
+  
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="labelSpan">Enter Name</span>
+    <input type="text" class="form-control" placeholder="Enter Name to be Search" name="username" [(ngModel)]="nameService.username">
+    <button class="btn btn-primary" type="button" id="search" (click)="nameService.searchNames()">Search</button>
+  </div>

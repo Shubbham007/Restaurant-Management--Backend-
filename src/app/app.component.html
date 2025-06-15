@@ -1,0 +1,73 @@
+<div class="container">
+  <!-- <h2 class="my-3">Click Counter</h2>
+  <hr>
+  <p class="lead">Button has been clicked {{count}} times</p>
+  <button class="btn btn-primary" (click)="incrementCount()" >Click to +</button>
+  
+  <button class="btn btn-primary ms-2" (click)="decrementCount()">Click to - </button>
+  <hr>
+  <p class="lead" *ngIf="flag">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatibus accusantium iusto tempore omnis dolores nihil tempora adipisci. Veritatis voluptatibus velit eaque, nisi assumenda placeat molestias sit provident aliquid culpa.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi similique, maxime, veniam quasi, expedita amet nisi libero quo fuga culpa reprehenderit minima aliquid est quos explicabo dolor aliquam mollitia eligendi!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at molestiae, explicabo, tempora repellat neque omnis a velit, rem obcaecati corrupti? Debitis officiis magnam quae corporis inventore deserunt? Ullam, earum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, ipsum facere, minima facilis vitae esse ipsam iste laborum magnam animi eveniet fugit quis quas molestiae reprehenderit harum ad. Ipsum, placeat!
+  </p>
+
+  <button class="btn btn-primary" (click)="ShowPara()">Show</button>
+  <button class="btn btn-primary ms-2" (click)="HidePara()">Hide</button>
+
+  <hr>
+  <h2 class="my-3">Names of students </h2>
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let name of names; let i=index">
+      <span>{{name}}</span>
+      <button class="btn btn-danger  bi bi-x-lg" (click)="deleteName(i)"></button>
+    </li>
+  </ul>
+  <br>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Enter person name" name="newName" [(ngModel)]="newName">
+    <button class="btn btn-primary" type="button" id="button-addon2" (click)="addName()" [disabled]="newName.length==0">Save</button>
+  </div>
+  <br>
+  <hr> -->
+
+
+
+
+<!--   
+  <h2 class="my-3">SignUp Form</h2>
+  <hr>
+  <form (ngSubmit)="signUpSubmit(signUpForm)" #signUpForm="ngForm" novalidate>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label" name="email" [(ngModel)]="user.email" #email="ngModel" required>Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text text-danger" *ngIf="email.dirty && email.invalid">Email can't be empty.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" name="password" [(ngModel)]="user.password" #password="ngModel" required>
+      <div id="passwordHelp" class="form-text text-danger" *ngIf="password.dirty && password.invalid">Password can't be empty.</div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary" [disabled]="signUpForm.invalid">Submit</button>
+  </form>
+</div> -->
+
+<!-- <app-navbar></app-navbar> -->
+<!-- <div class="container"> -->
+  <!-- <router-outlet></router-outlet> -->
+   <!-- <p class="h2 mt-3">App Component</p>
+   <hr>
+   <app-adder></app-adder>
+   <app-result></app-result>
+</div> -->
+
+<div class="container">
+
+  <p class="h2 mt-3">App Component</p>
+  <hr>
+  <app-search></app-search>
+  <app-result></app-result>
+</div>

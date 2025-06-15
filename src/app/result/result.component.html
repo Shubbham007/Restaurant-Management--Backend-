@@ -1,0 +1,12 @@
+<div class="card card-body mt-3">
+  <div class="card-body">
+  <p class="h6 my-2">Result component</p>
+  <hr>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let filteredName of nameService.filteredName">{{filteredName}}</li>
+   </ul>
+   <p class="mb-0" *ngIf="nameService.filteredName.length==0">
+    Name not found
+   </p>
+</div>
+</div>
